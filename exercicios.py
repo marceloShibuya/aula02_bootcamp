@@ -4,10 +4,23 @@
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-n1 = int(input("Numero 1: "))
-n2 = int(input("Numero 2: "))
-resultado = (n1/n2)
-print(resultado)
+# try:
+#     n1 = int(input("Numero 1: "))
+#     n2 = int(input("Numero 2: "))
+#     resultado = (n1/n2)
+#     print(resultado)
+# except ZeroDivisionError:
+#     print("integer division or modulo by zero")
+# except:
+#     print("erro na divisão, por favor confirme os numeros da divisao")
+
+numero = int(input("Insira um numero inteiro: "))
+
+if isinstance(numero,int):
+    print("Verdadeiro")
+else:
+    print("Falso")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 # #### Números de Ponto Flutuante (`float`)
@@ -29,12 +42,12 @@ print(resultado)
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.da
-data_usuario = input("Insira uma data no formato DD/MM/AAAA: ")
-data_separada = data_usuario.split("/")
-print(data_separada)
-print(f"O primeiro elemento é o: {data_separada[0]}")
-print(f"O segundo elemento é o: {data_separada[1]}")
-print(f"O terceiro elemento é o: {data_separada[2]}")
+# data_usuario = input("Insira uma data no formato DD/MM/AAAA: ")
+# data_separada = data_usuario.split("/")
+# print(data_separada)
+# print(f"O primeiro elemento é o: {data_separada[0]}")
+# print(f"O segundo elemento é o: {data_separada[1]}")
+# print(f"O terceiro elemento é o: {data_separada[2]}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
