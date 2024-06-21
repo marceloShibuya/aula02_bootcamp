@@ -14,13 +14,11 @@
 # calculo_resto = numero_usuario % 5
 # print(f"O resto da divisão por 5 é: {calculo_resto}")
 
-
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-numero_1 = int(input("Digite o primeiro número: "))
-numero_2 = int(input("Digite o segundo número: "))
-multiplicacao = numero_1 * numero_2
-print(f"A multiplição dos números é: {multiplicacao}")
-
+# numero_1 = int(input("Digite o primeiro número: "))
+# numero_2 = int(input("Digite o segundo número: "))
+# multiplicacao = numero_1 * numero_2
+# print(f"A multiplição dos números é: {multiplicacao}")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # try:
@@ -41,6 +39,9 @@ print(f"A multiplição dos números é: {multiplicacao}")
 #     print("Falso")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+# numero_usuario = int(input("Digite o número: "))
+# numero_ao_quadrado = numero_usuario ** 2
+# print(f"O quadrado do número é: {numero_ao_quadrado}")
 
 # #### Números de Ponto Flutuante (`float`)
 
