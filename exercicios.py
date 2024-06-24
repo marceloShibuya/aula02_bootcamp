@@ -59,12 +59,16 @@
 # print(f'A média dos números é: {media:.2f}')
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-base = float(input("Informe a base do cálculo: "))
-expoente = float(input("Informe o expoente: "))
-potencia = base ** expoente
-input(f"A potencia de {base} considerando o expoente {expoente} é: {potencia:.2f}")
+# base = float(input("Informe a base do cálculo: "))
+# expoente = float(input("Informe o expoente: "))
+# potencia = base ** expoente
+# input(f"A potencia de {base} considerando o expoente {expoente} é: {potencia:.2f}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+graus_celsius = float(input("Digite a temperatura em Celsius: "))
+fahrenheit = (graus_celsius * 9/5) + 32
+print(f"{graus_celsius}°C é igual a {fahrenheit}°F")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 # import math
 
