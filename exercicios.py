@@ -46,12 +46,18 @@
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
-numero_1 = float(input("Digite o primeiro número: "))
-numero_2 = float(input("Digite o segundo número: "))
-soma = numero_1 + numero_2
-print(f"A soma dos números é: {soma}")
+# numero_1 = float(input("Digite o primeiro número: "))
+# numero_2 = float(input("Digite o segundo número: "))
+# soma = numero_1 + numero_2
+# print(f"A soma dos números é: {soma}")
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+numero_1 = float(input("Digite o primeiro número:"))
+numero_2 = float(input("Digite o segundo número:"))
+soma = numero_1 + numero_2
+media = soma / 2
+print(f'A média dos números é: {media:.2f}')
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
