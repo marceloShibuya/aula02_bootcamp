@@ -110,15 +110,17 @@
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-booleano1 = bool(input("1 - Informe se True or False: "))
-booleano2 = bool(input("2 - Informe se True or False: "))
-resultado = booleano1 and booleano2
-print(f"O resultado do valor booleano para o AND é: {resultado}")
-
-
-
+# booleano1 = bool(input("1 - Informe se True or False: "))
+# booleano2 = bool(input("2 - Informe se True or False: "))
+# resultado = booleano1 and booleano2
+# print(f"O resultado do valor booleano para o AND é: {resultado}")
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+booleano1 = bool(input("1 - Informe se True or False: "))
+booleano2 = bool(input("2 - Informe se True or False: "))
+resultado = booleano1 or booleano2
+print(f"O resultado do valor booleano para o OR é: {resultado}")
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
