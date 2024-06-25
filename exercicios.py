@@ -134,14 +134,21 @@
 # print(f"O primeiro é igual ao segundo número? A resposta é: {resultado}")
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
-numero1 = input("Informe o primeiro número: ")
-numero2 = input("Informe o segundo número: ")
-resultado = numero1 != numero2
-print(f"O primeiro é diferente do segundo número? A resposta é: {resultado}")
+# numero1 = input("Informe o primeiro número: ")
+# numero2 = input("Informe o segundo número: ")
+# resultado = numero1 != numero2
+# print(f"O primeiro é diferente do segundo número? A resposta é: {resultado}")
 
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+try:
+    graus_celsius = float(input("Digite a temperatura em Celsius: "))
+    fahrenheit = (graus_celsius * 9/5) + 32
+    print(f"{graus_celsius}°C é igual a {fahrenheit}°F")
+except ValueError:
+    print("O número inserido não é válido, tente novamente.")
+
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
 # 24: Classificador de Números
