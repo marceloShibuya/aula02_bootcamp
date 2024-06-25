@@ -84,11 +84,15 @@
 # print(maiusculo)
 
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
-maiusculo = str(input("Digite qualquer palavra em letra maiuscula: "))
-minusculo = maiusculo.lower()
-print(minusculo)
+# maiusculo = str(input("Digite qualquer palavra em letra maiuscula: "))
+# minusculo = maiusculo.lower()
+# print(minusculo)
 
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+frase = input("Digite uma frase qualquer: ")
+sem_espaco = frase.strip()
+print(sem_espaco)
+
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.da
 # data_usuario = input("Insira uma data no formato DD/MM/AAAA: ")
 # data_separada = data_usuario.split("/")
