@@ -116,12 +116,17 @@
 # print(f"O resultado do valor booleano para o AND é: {resultado}")
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-booleano1 = bool(input("1 - Informe se True or False: "))
-booleano2 = bool(input("2 - Informe se True or False: "))
-resultado = booleano1 or booleano2
-print(f"O resultado do valor booleano para o OR é: {resultado}")
+# booleano1 = bool(input("1 - Informe se True or False: "))
+# booleano2 = bool(input("2 - Informe se True or False: "))
+# resultado = booleano1 or booleano2
+# print(f"O resultado do valor booleano para o OR é: {resultado}")
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+booleano1 = False
+conversao = not booleano1
+resultado = conversao
+print(f"O resultado do valor booleano invertendo ele é: {resultado}")
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
