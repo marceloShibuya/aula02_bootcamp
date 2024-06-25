@@ -128,12 +128,16 @@
 # print(f"O resultado do valor booleano invertendo ele é: {resultado}")
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-numero1 = input("Informe o primeiro número: ")
-numero2 = input("Informe o segundo número: ")
-resultado = numero1 == numero2
-print(f"O primeiro é igual ao segundo número? A resposta é: {resultado}")
+# numero1 = input("Informe o primeiro número: ")
+# numero2 = input("Informe o segundo número: ")
+# resultado = numero1 == numero2
+# print(f"O primeiro é igual ao segundo número? A resposta é: {resultado}")
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+numero1 = input("Informe o primeiro número: ")
+numero2 = input("Informe o segundo número: ")
+resultado = numero1 != numero2
+print(f"O primeiro é diferente do segundo número? A resposta é: {resultado}")
 
 # #### try-except e if
 
